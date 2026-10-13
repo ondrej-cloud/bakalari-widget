@@ -13,6 +13,15 @@ a víš, co máš další hodinu a kde.
 Data si drží v cache, takže widget ukáže rozvrh i bez signálu. Přizpůsobuje se
 světlému i tmavému režimu iOS.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="screenshots/widgety-tmave.png">
+    <img src="screenshots/widgety-svetle.png" width="754" alt="Widget Rozvrh na ploše iPhonu – velký, střední a dva malé (dnes a zítra)">
+  </picture>
+  <br>
+  <sub>Náhled vykreslený ze skutečného kódu widgetu, rozvrh je smyšlený.</sub>
+</p>
+
 ## Instalace
 
 1. Stáhni si **Scriptable** z App Storu (zdarma).
@@ -69,15 +78,9 @@ parametr a naskládej je na sebe do stacku (podrž → **Edit Stack** → vypni
 
 ## Widget
 
-```
-Dnes 21. 9.                      do 13:25
-  8:00  Biologie                        B
-  8:55  Zeměpis                        5p
- 10:00  Tělesná výchova            odpadá
- 10:55  Tělesná výchova               Tv1
- 11:50  Český jazyk a literatura       3a
-● za 30 min · M 204                    +1
-```
+<p align="center">
+  <img src="screenshots/svetly-tmavy.png" width="754" alt="Střední widget Rozvrh v tmavém a světlém režimu">
+</p>
 
 Vlevo začátek hodiny, uprostřed předmět, vpravo učebna v pevném sloupci — ta se
 nikdy nezkracuje, ukrojí se název předmětu. Hodina, která zrovna běží, má
@@ -162,6 +165,10 @@ podbarvená s modrým rámečkem.
 - u hodiny číslo, začátek, zkratka, učitel, plný název, téma a učebna
 - odpadlé hodiny jsou přeškrtnuté, u suplování a změny místnosti svítí oranžový popis
 - dole počet hodin a od kdy do kdy se ten den učíš
+
+<p align="center">
+  <img src="screenshots/appka.png" width="560" alt="Appka Rozvrh po ťuknutí na widget, v tmavém a světlém režimu">
+</p>
 
 Appka nestahuje nic sama — data jí skript předá při otevření, takže se nečeká na síť
 a widget i appka ukazují totéž.
